@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aanmelding Vrijwilliger — de Fietsboot</title>
+<meta name="description" content="Meld u aan als vrijwilliger bij de Fietsboot">
+<meta property="og:title" content="Aanmelding Vrijwilliger — de Fietsboot">
+<meta property="og:description" content="Meld u aan als vrijwilliger bij de Fietsboot">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta property="og:image" content="data:image/webp;base64,UklGRmwKAABXRUJQVlA4IGAKAAAQMwCdASrAAMAAPlEmkEYjoiGhI3iJQHAKCU3b18G8wEr+M24WdI/LL8bupm6XYAeZXyR/rfui953+k9hH519gD9POkR+y/qA/iX9V/Yz3iv71/lfYr+yfsAf0z/hdYB+1XsAfsV6Z37p/Br+2n7p/Av+xf/31ojqBqWviV+d2a3wn8u/bf2V/Sjxf9RHqBfiP89/wX5N8NuAD6e/7T+w96r6Ad5j+lf8Xjb6AH5E87v/o/0f5K+1/6c9gv9aP+j63vr79EP9phiRYdrxSgizy3S58dKwWnCMokD7wOgiW0k/RtijweT8n3d+CQQdeFuAr/f61EU6QZQxsjwTltvIhts11tUOd1PIH6wtMrMKN7i4In3tLQrn7MzIjL1y4rNNGRXKPmPvervQZzLh3XnWqnXAjw0XKTa03kWh9+NXI0L2GkF9eEfEHZANqYI8+N0mLHOvaqqEHkk/CjGP6+Ghax8wUS5oUtdor4tqMnhqFb8CbngynqIG4BFDlXpd1P1Z76qnf7Bs+p9h0yzBbCywkMYUdWySi6cNXAKBOdLmavAAA/u6nPtrbNBxYfVR9m1mpwQ+tasT2WRDjgW3tjWopBlqItKvG4t4AlJ2LGfSzHoUwD7zrBjHCZBU3oCKjz5iteCHNub4wkXeoVJgrL2SJvnFQLunKAWkGQktiv1S0aabQDRQ2kp3DPlMYd21p6Ap/1ZlnEnq5Fu4tjwMJv8T435JKmWlernknxkQ+v3lzZQSqaBboSg4UgmscwP+bt3272wzZSQXODcet2W0O/ROMLrLfeQF1AivS6zjOfvLVOyz/1BgF5/k1v/o5jM8MS4mqI/pvxfXA7SzF9mvUH7lieGP9T1Fr+I4FvQoy3c/CweB0bFvvyT09QscTUHFs8nVd4FbAOakZKeU2nHpB9bbD+aCdtNyjqDZ2txlbAM+XpP7URqQizxyjWVyOe4G5RS+ZjR0ubFRtdY4PbiO2/Hs0ENVOlaIW7uVy1PzBbkMhCvPpTZV4iDhRKuHOk8zWGRrtHrFZySxxdS/agwWa71JqrI7Nh+6DYE3ZfT+DuVPn3eCjUu+VRdMpKH7LmwiEYbIqB//LXzjtot/EZqqaCwsuOWpDIBK8u1WWQJ0a/0pIpgpIRzjruJbn5O0jlPH1OWlkOEFTeO6RL0sTCj5+YxQUz+/GKipU0WHzMxJmbqvffnuxbaOeXQDE79EhPmv5i5vkSPsGTeYtsfZDyp9pKBrp3EYxbhO/sMR6LHDk+SgiHQ3Ra74xImdQIZ/7q6icFQxwaQWSUn7sM4q5R0oFJHOZnTsbP7qwaGEtX5D+cvZbpkCqLTLyy9VDqPMSiQOn4Vpx+3egOe37dRAVtPiCJndft3VkzXjxaboF6inWpYFaGQGQyKUmZmrcK1n2L0T7k4/bDSNEN1C3exizH8gVoeE6HuXYnzasct0KF+LVW8HE6/EUGEB/3dnecGA5ufOFjL+0L5i9ygxV0wn4+odN+6p82s/qKhaf/uFhDi5Y0Cbez7vWy/g3yKzUlRh32mtrGrMTjQbt2Foz72Fa1H8WzrvgtHqQb9HPTsx9MY2J3eJd53dWQ4hRGMW4Tv7K/FgDcNkvHRk4ymXah+wTgMscAas2b2MTr8ILB+xjhBFTdckqZOgCs52QYuE+a5Ue2GaYHUwH2JXCwbsl5uncg1FyIF3S0alFVIJvNq8ywV2sVBiP5LQiCmdWFhZ5yJS2IeK1mZ7e050tIXFRqY7Jd+i/sKlR2Cc6MKA3djWbnib8+FFaw+MwqAViYVPa/3Kn49yU3Ae4k6nzlZXSDaPsd3e9JB8q8oPXkUQu74nPmEF7xqyK4xP/QKT17kWaBNpSa8ZaaBqjLq3EksGNH3/QcUyDAM5ccjolxvkBOgYtWo0aqTYhd8Y+TuTctwYntq6xJmzaPGLbZZgI14w6ZSNMgKDSxL2ZYLWqymVU97CgXIgyvI3opbDc2RomEPQPes9MxbCCwQbiZjXdNISVtkNFFDuBzP0hp90t1gq8fiF94BxiDHdhUz//nJUt6u3WPotsjB+CptZVwaINsMZlgHrS7jaxhFgH5OgZLGY/WIzuaLrScjl1b6I4vM3Do255no0fr5+Hxe0bRLiMaFqUbtYzzJaSba3wzBLxfN6hv8yhzoK0pwqzIvwkIkyr1z9zgsJnnyNwwONyeLtkqYE1HQd3hD1GjvE2KybhrtS445ZzaGGpIDjdVhYGuTXYjiep2f26F/e4h1UQ7kJEQnouLPwTdIN/0ToOI3fy/kD+r8FtKGnmaVURPhOt7N0g+SnCYkYsQlG24Uu3KaxsAvnN8C019Cdq02HRYP8DgbM590DFCOe/IrCMz/T/T6QUpMn8RCVXbXKXnB3XCjShzsKcwKD3T7o7v7IsWp/bjt+Kz/hB4NWypVVegpBOZbpX/NiVymphQRlkv9O6WYwUQZ/EZRWQgvm37oh/ZpmuWEG8XNBxAejgyOt5DoUOFNuZA98YpsXdDKwAf8n9NuNsEXc+ftc/8z4m5OM7+K2ppyLlzQiF/gbZYRQHYEEPnPvD61L5oJqbYqVuK9dPMBYI1r0tP9kPs5SJT9z1xGv4zQtKoBW0gf5rJgU0+z9Z/h0Lqp5rF8fk8/tfqf/1T7r11i7S3Reblv0nxiL1RlNePpxik3sAzaxBy3PeidY1vA5brkoNX1/gEIF6HKKOUacEA1odweZ4rSEqpNZzqgv/2zf3XLybPDs4jaKr8DoS6kzm8uot0ZuLQeAhYxhNxe7Q7YDh6TCeExle8c98k+55zXRcoDIXFkguo0vbxTc9/8qCit1lIy0Inq75xMPXrsZgRBqQLkUff5Pzb4iYBDTTJM6f9OJxyecyOQalAX8cWSxfM9sMf31eET87SWvORMDjcOy1+ZT7FmWB17jLOEKdzJ76VCexyhPPfzaARy4Z6E01zfvb+9dIC8eJZl1OIhMHfu9FkGQ1eT3dASZP2viac8wwy5z8KvWy1TqfPxuBC4DsYsxNuVCDsLNzyWKq/IvNLjsg0w72yF0yrusRclLPGuvmmjkNddee8rdgdWO+1TX/O/DjU+KKGKwqBDaS8TJmOzv/dN/rB93xGZsMVtga8fcwt5jOTn87DM/H7fyayFxNhIWqRcqwvRBTjnNTceL4zAyyWnypTdBUtEefSoRRlpmVGATiJqgIH5XEaCsykC2Gy9Wes5ULODX2b1NzGpVrv0HTOzbHmGv5rpi3gTlc9zHvYZlDtEim5D7OkgQZGYLfi6rJ2Nx/JB6NV12t/TkAupid3zp3+g7WtSQ/e4wm9VfDQVmky5pQTOzX+Ev+sda6Qrz7GNuES/5mQYCRwswe5GXYrwLzSK0uycKWpisHDy0a07a3e9YAQWueM88zmMURYOlUTQ4PF/0yFiiCFNXiCzuDuIHiarUBRl76G+BqjrxJMb/GOPwrCsbDTtjQIquxBNP0khKdmrDv78qWWa6wtEFGe3r3hIjhOXwPDl+GhtlFK/sQnuW0A3J+ndvQKHczyEu3rUN5nqRGbIGbsUSSj1OUShKWF4dqgAAA" />
+<meta name="twitter:image" content="data:image/webp;base64,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" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --accent:       #008AD1;
+  --accent-dark:  #006ea8;
+  --accent-light: #e6f3fb;
+  --bg:           #f7f8fa;
+  --card:         #ffffff;
+  --border:       #e4e7ed;
+  --text:         #1a1d23;
+  --text-2:       #5a6070;
+  --text-3:       #9aa0ad;
+  --ok-bg:        #edfaf3;
+  --ok:           #1a7f4b;
+  --err-bg:       #fef2f2;
+  --err:          #c0392b;
+  --warn-bg:      #fffbeb;
+  --warn:         #92620a;
+  --r:            10px;
+  --rl:           16px;
+  --shadow:       0 1px 3px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.07);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  padding: 0 0 60px;
+}
+
+/* ── Header ── */
+.header {
+  background: var(--accent);
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: 0 2px 8px rgba(0,138,209,.25);
+}
+.logo {
+  width: 44px; height: 44px;
+  background: rgba(255,255,255,.2);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.logo svg { width: 28px; height: 28px; }
+.header h1 { font-size: 18px; font-weight: 600; color: #fff; line-height: 1.2; }
+.header p  { font-size: 12px; color: rgba(255,255,255,.75); margin-top: 2px; }
+
+/* ── Progress ── */
+.prog-wrap { background: rgba(255,255,255,.25); height: 4px; }
+.prog { height: 4px; background: rgba(255,255,255,.25); }
+.prog-fill { height: 4px; background: #fff; transition: width .4s ease; width: 0%; }
+
+/* ── Card ── */
+.card {
+  max-width: 560px;
+  margin: 28px auto 0;
+  background: var(--card);
+  border-radius: var(--rl);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+/* ── Step header ── */
+.sh {
+  background: linear-gradient(135deg, var(--accent-light) 0%, #f0f8fe 100%);
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid var(--border);
+}
+.sh-lbl {
+  font-size: 11px; font-weight: 600; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 4px;
+}
+.sh-title { font-size: 20px; font-weight: 600; color: var(--text); }
+.sh-sub   { font-size: 13px; color: var(--text-2); margin-top: 5px; line-height: 1.5; }
+
+/* ── Step body ── */
+.sb { padding: 20px 24px; }
+
+/* ── Form fields ── */
+.field { margin-bottom: 14px; }
+.field label {
+  display: block; font-size: 13px; font-weight: 500;
+  color: var(--text-2); margin-bottom: 5px;
+}
+.field label .req { color: var(--accent); margin-left: 2px; }
+.field input,
+.field select,
+.field textarea {
+  width: 100%; padding: 10px 12px;
+  border: 1.5px solid var(--border); border-radius: var(--r);
+  font-family: inherit; font-size: 14px; color: var(--text);
+  background: var(--card); transition: border-color .15s, box-shadow .15s;
+  outline: none;
+}
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(0,138,209,.12);
+}
+.field input.err,
+.field select.err,
+.field textarea.err { border-color: var(--err); }
+.field textarea { resize: vertical; min-height: 72px; }
+.field .hint { font-size: 11px; color: var(--text-3); margin-top: 4px; }
+
+/* ── Two-column grid ── */
+.field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+.field-grid .field-wide { grid-column: 1 / -1; }
+
+/* ── Section label ── */
+.section-label {
+  font-size: 11px; font-weight: 600; letter-spacing: .05em;
+  text-transform: uppercase; color: var(--text-3);
+  margin: 18px 0 10px; padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.section-label:first-child { margin-top: 0; }
+
+/* ── Radio cards ── */
+.radio-cards { display: flex; flex-direction: column; gap: 8px; }
+.radio-card {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 12px 14px; border: 1.5px solid var(--border);
+  border-radius: var(--r); cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.radio-card:hover { border-color: var(--accent); background: var(--accent-light); }
+.radio-card input[type=radio] { margin-top: 2px; accent-color: var(--accent); flex-shrink: 0; }
+.radio-card.selected { border-color: var(--accent); background: var(--accent-light); }
+.radio-card .rc-title { font-size: 14px; font-weight: 500; color: var(--text); }
+.radio-card .rc-sub   { font-size: 12px; color: var(--text-2); margin-top: 2px; }
+
+/* ── Checkboxes ── */
+.check-list { display: flex; flex-direction: column; gap: 8px; }
+.check-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px; border: 1.5px solid var(--border);
+  border-radius: var(--r); cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.check-item:hover { border-color: var(--accent); background: var(--accent-light); }
+.check-item input[type=checkbox] { accent-color: var(--accent); width: 16px; height: 16px; flex-shrink: 0; }
+.check-item span { font-size: 14px; color: var(--text); }
+.check-item.checked { border-color: var(--accent); background: var(--accent-light); }
+
+/* ── Notice box ── */
+.notice {
+  padding: 12px 14px; border-radius: var(--r); margin-bottom: 14px;
+  font-size: 13px; line-height: 1.5;
+}
+.notice.info  { background: var(--accent-light); color: var(--accent-dark); border-left: 4px solid var(--accent); }
+.notice.warn  { background: var(--warn-bg);      color: var(--warn);        border-left: 4px solid var(--warn); }
+.notice.ok    { background: var(--ok-bg);         color: var(--ok);          border-left: 4px solid var(--ok); }
+
+/* ── Summary ── */
+.summ-section { margin-bottom: 16px; }
+.summ-section h3 {
+  font-size: 11px; font-weight: 600; letter-spacing: .05em;
+  text-transform: uppercase; color: var(--text-3);
+  padding-bottom: 6px; border-bottom: 1px solid var(--border); margin-bottom: 8px;
+}
+.summ-row {
+  display: flex; gap: 8px; padding: 5px 0;
+  border-bottom: 1px solid #f3f4f6; font-size: 13px;
+}
+.summ-row:last-child { border-bottom: none; }
+.summ-row .sk { color: var(--text-2); min-width: 140px; flex-shrink: 0; }
+.summ-row .sv { color: var(--text); font-weight: 500; }
+.summ-row .sv.accent { color: var(--accent); }
+
+/* ── Buttons ── */
+.btn-row { display: flex; gap: 10px; margin-top: 20px; }
+.btn {
+  flex: 1; padding: 12px 20px;
+  border: 1.5px solid var(--border); border-radius: var(--r);
+  font-family: inherit; font-size: 14px; font-weight: 500;
+  cursor: pointer; transition: all .15s; background: var(--card); color: var(--text-2);
+}
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+.btn.primary {
+  background: var(--accent); border-color: var(--accent); color: #fff;
+}
+.btn.primary:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
+.btn:disabled { opacity: .5; cursor: not-allowed; pointer-events: none; }
+
+/* ── Status ── */
+.status {
+  padding: 10px 14px; border-radius: var(--r); font-size: 13px;
+  margin-top: 12px; display: none;
+}
+.status.spin { background: var(--accent-light); color: var(--accent); display: flex; align-items: center; gap: 8px; }
+.status.ok   { background: var(--ok-bg); color: var(--ok); display: block; }
+.status.fail { background: var(--err-bg); color: var(--err); display: block; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner {
+  width: 16px; height: 16px; border: 2px solid var(--accent-light);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin .7s linear infinite; flex-shrink: 0;
+}
+
+/* ── File upload ── */
+.upload-zone {
+  border: 2px dashed var(--border); border-radius: var(--r);
+  padding: 20px 16px; text-align: center; cursor: pointer;
+  transition: all .15s; background: var(--bg); position: relative;
+}
+.upload-zone:hover, .upload-zone.drag { border-color: var(--accent); background: var(--accent-light); }
+.upload-zone input[type=file] {
+  position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
+}
+.upload-zone .uz-icon { font-size: 28px; margin-bottom: 6px; }
+.upload-zone .uz-title { font-size: 14px; font-weight: 500; color: var(--text); }
+.upload-zone .uz-sub   { font-size: 12px; color: var(--text-3); margin-top: 3px; }
+
+.file-list { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; }
+.file-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 12px; background: var(--ok-bg);
+  border: 1px solid #c3e8d4; border-radius: 8px; font-size: 13px;
+}
+.file-item .fi-icon { font-size: 18px; flex-shrink: 0; }
+.file-item .fi-name { flex: 1; color: var(--text); font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.file-item .fi-size  { color: var(--text-3); font-size: 11px; flex-shrink: 0; }
+.file-item .fi-del   {
+  background: none; border: none; cursor: pointer; color: var(--text-3);
+  font-size: 16px; padding: 0 2px; line-height: 1; transition: color .1s;
+}
+.file-item .fi-del:hover { color: var(--err); }
+
+/* ── Result ── */
+.result { padding: 32px 24px; text-align: center; }
+.result .ri { font-size: 48px; margin-bottom: 12px; }
+.result h2  { font-size: 22px; font-weight: 600; margin-bottom: 8px; }
+.result p   { font-size: 14px; color: var(--text-2); line-height: 1.6; }
+.result.ok  h2 { color: var(--ok); }
+.result.err h2 { color: var(--err); }
+
+/* ── Steps ── */
+.step { display: none; }
+.step.active { display: block; }
+
+/* ── AVG ── */
+.avg-wrap {
+  border: 1.5px solid var(--border); border-radius: var(--r);
+  padding: 14px; font-size: 13px; color: var(--text-2); line-height: 1.6;
+}
+.avg-wrap a { color: var(--accent); }
+.avg-check {
+  display: flex; align-items: flex-start; gap: 10px; margin-top: 12px;
+  padding: 12px 14px; border: 1.5px solid var(--border); border-radius: var(--r);
+  cursor: pointer; transition: all .15s;
+}
+.avg-check:hover  { border-color: var(--accent); background: var(--accent-light); }
+.avg-check.active { border-color: var(--ok);     background: var(--ok-bg); }
+.avg-check input  { accent-color: var(--ok); margin-top: 2px; flex-shrink: 0; }
+.avg-check span   { font-size: 13px; font-weight: 500; color: var(--text); }
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .card { margin: 16px 12px 0; border-radius: var(--r); }
+  .field-grid { grid-template-columns: 1fr; }
+  .field-grid .field-wide { grid-column: 1; }
+  .header h1 { font-size: 16px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <img src="data:image/webp;base64,UklGRiYFAABXRUJQVlA4IBoFAABwHQCdASpYAFgAPjEYikOiIaESOzUIIAMEoA0Mom/kGwt9J/IDmo+Q8QG8A8uDjHxAfxj2Afar7gHi3foB7gP0z9QH6Of3v+q+7b/hvUBvAHoAftv6Rv7KfBr+037je1p//6bb9h/JvJfPYPyP3gDwgd4B2zON/1r/GeQp8j/xumR/m/+j4M3nV83D/Q8nfzx/wPcH/kP9C/1/5yd1D0K/2ZIm3J8WCDNZ2BAbeHxZRyUudn8iG/D8Fhx7mknGuez7BgxJxrG3r4MwYkAWco8Y5UaRyXvpKqoe5ZmASesoV3OD0GykmUmaSO7TGJld98i5+rIgAP7wxAvzdz+bufzdz/N3P73M/dzP3cz+f4R8ypjRyfsX9VgYbpPWVxoy/KMSWW+MI03ltrY2NQN5UsYIfeABcI+rJkFwvEAIG0fOUxXLa+zAAumzpd2rLiObKKGuDLsM4+iel5ZuZCr4CmWWxzaEZJUNW/pWFlMWMP+1cMsC610NSYqPVN++9+Yruf3ap+3wwq411k8NXi19MeGm8t6k598j/x4/nvdwciIEZ3Tyr7uP5M0R5WCjTtWQv/0kkVN93Qa0PzC/MivBMsPAjp4VLf1hofWVvRtLii6iABsxAjhfWsB/faEcj0m0oyh3WNVuoNZ8yzEb+FI+0uGs1nuXqVx7hOJjne8ic7XNi+NFuXpU09P8D1/ar5INumDjHNhGqG0qBCPbA+hrrx6cBOve/Idj3lEhKv39Dbt8NsjgVbut6vWtBmTFXqSvrEnHbmZWMkTWZFDqvapFMQxXFiGs0nb9uTWpF44xo0NRTeSCSU5jiMcVGTZXpWXSELINAEBZ/ax1/f561aptEJNVXXm/dZh+L2QjHzXig9hfB1xctZ4IrM3kuvQnE0FQxAWhnUpA4DK3JJGhXPBSP2nzyDoYgY9BSGevvfFe5PJY14ZjrvPpq1PmhpQek2LrILWBi7ot1dp6i8SM2HwAlalokTWgKSHimyLp573waM/Jqext+j8OiKfGL+i2Lnz3CyY4rDqGKqzrRQfp3tBLfCelsyX4i2/JiunkuelFCU5QAa9TtWzHoLbPjmH6Weff/DVg6FTFd29EcPL/1nQRzf9Y95Rz/hI0/PsJqT0tTEL97iG3Sq+hMH96tpMEWVR1HeRe+1vOdHOoPhgZiO/NuPFfcXq/gOEyJiZhrZfCDvV8JXuedzg3Ez+6cMnr+oGgG267FIYqc2FTWSp7MRzumHRiLVKKtdUff+FSFMauXG+/7s0kErlzLqFI3dfB6+qMG0r8vqk5R43ZQunKU8Y/2O5Q2YkpcFuO3X8Sn/9hqtl/kou8BAv7I7DrXBbER1rcZVT2MbKtyoUV/fqR779w2GyJW0tiK2apmK1WFbv1fG5KpZJ8TbTdm7d4ex3tz/bDviC7UXl85R5RLE4z/I80EuyAth3FwFnH2nY1KvtTBaKr+HPti95wwK3bngFtz7l7eBsb4zk8AHQby7K/7u/QDsTb7dnG4bPzW4zqgsqhz3ojzpp0lgVreKH/tENlNB6f5cERKnPAtz5uGkGC+sklD76cfJa3p4LRmWtRJzRPW9t68Keo51NLuN1lb4KB6dlh98hsiQj8yIivn9KcnGmS8XsdShoTe7+t8xXHbmi6uy4IBcUv9V8au5EKCs8K3tdjeRnXwjl8SMgsU/PfBM/sHBP7utzWerkXcqatgxK9xu2KvtkYrRFZN3HtF7GYJXPNNC76qm5j7wWaAAAA" style="width:44px;height:44px;border-radius:12px;display:block;flex-shrink:0" alt="de Fietsboot logo">
+  <div>
+    <h1>Aanmelding Vrijwilliger</h1>
+    <p>de Fietsboot — Stichting Veerdiensten op de Vecht</p>
+  </div>
+</div>
+<div class="prog-wrap" style="background:var(--accent-dark)">
+  <div class="prog-fill" id="pf"></div>
+</div>
+
+<!-- Card -->
+<div class="card">
+
+  <!-- ═══ STAP 0: Welkom ═══════════════════════════════════════════════════ -->
+  <div class="step active" id="s0">
+    <div class="sh">
+      <div class="sh-lbl">Stap 1 van 5</div>
+      <div class="sh-title">Welkom!</div>
+      <div class="sh-sub">
+        Fijn dat u zich wilt aanmelden als vrijwilliger bij de Fietsboot.
+        We stellen een paar vragen over uzelf, uw voorkeuren en relevante ervaring.
+        Na het invullen nemen wij contact met u op.
+      </div>
+    </div>
+    <div class="sb">
+      <div class="notice info">
+        Het formulier telt 5 stappen en duurt ongeveer 5 minuten.
+        Uw bevestiging ontvangt u per e-mail, inclusief een overzicht van uw gegevens.
+      </div>
+      <div class="section-label">Voor welke functie meldt u zich aan?</div>
+      <div class="radio-cards">
+        <label class="radio-card" id="rc-schipper">
+          <input type="radio" name="functie" value="Schipper (m/v)" onchange="selectFunctie(this)">
+          <div>
+            <div class="rc-title">⚓ Schipper (m/v)</div>
+            <div class="rc-sub">U bestuurt de Fietsboot. Vaarbewijs 1 en Marifoon vereist.</div>
+          </div>
+        </label>
+        <label class="radio-card" id="rc-gastheer">
+          <input type="radio" name="functie" value="Gastheer (m/v)" onchange="selectFunctie(this)">
+          <div>
+            <div class="rc-title">🤝 Gastheer/Gastvrouw (m/v)</div>
+            <div class="rc-sub">U verwelkomt fietsers aan boord en verzorgt de kaartverkoop.</div>
+          </div>
+        </label>
+      </div>
+      <div id="err-functie" style="font-size:12px;color:var(--err);margin-top:8px;display:none">
+        Kies eerst een functie om verder te gaan.
+      </div>
+      <div class="section-label" style="margin-top:18px">Voorkeur vaargebied</div>
+      <div class="radio-cards">
+        <label class="radio-card" id="rc-vecht">
+          <input type="radio" name="vaargebied" value="Ja, voor de Vecht (Fietsboot 1)" onchange="selectVaargebied(this)">
+          <div>
+            <div class="rc-title">🌊 Utrechtse Vecht (Fietsboot 1)</div>
+          </div>
+        </label>
+        <label class="radio-card" id="rc-loosdrecht">
+          <input type="radio" name="vaargebied" value="Ja, voor de Loosdrechtse Plassen (Fietsboot 2)" onchange="selectVaargebied(this)">
+          <div>
+            <div class="rc-title">🏞 Loosdrechtse Plassen (Fietsboot 2)</div>
+          </div>
+        </label>
+        <label class="radio-card" id="rc-geen-voorkeur">
+          <input type="radio" name="vaargebied" value="Geen voorkeur" onchange="selectVaargebied(this)">
+          <div>
+            <div class="rc-title">🔀 Geen voorkeur</div>
+          </div>
+        </label>
+      </div>
+      <div id="err-vaargebied" style="font-size:12px;color:var(--err);margin-top:8px;display:none">
+        Geef uw voorkeur voor een vaargebied op.
+      </div>
+      <div class="btn-row">
+        <button class="btn primary" onclick="goStep(1)">Verder →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ STAP 1: Persoonsgegevens ════════════════════════════════════════ -->
+  <div class="step" id="s1">
+    <div class="sh">
+      <div class="sh-lbl">Stap 2 van 5</div>
+      <div class="sh-title">Persoonsgegevens</div>
+      <div class="sh-sub">Uw naam, adres en contactgegevens.</div>
+    </div>
+    <div class="sb">
+      <div class="section-label">Naam</div>
+      <div class="field-grid">
+        <div class="field">
+          <label>Voornaam <span class="req">*</span></label>
+          <input type="text" id="voornaam" placeholder="Jan" autocomplete="given-name">
+        </div>
+        <div class="field">
+          <label>Tussenvoegsel</label>
+          <input type="text" id="tussenvoegsel" placeholder="van" autocomplete="additional-name">
+        </div>
+        <div class="field field-wide">
+          <label>Achternaam <span class="req">*</span></label>
+          <input type="text" id="achternaam" placeholder="Jansen" autocomplete="family-name">
+        </div>
+      </div>
+
+      <div class="section-label">Adres</div>
+      <div class="field">
+        <label>Straat + huisnummer <span class="req">*</span></label>
+        <input type="text" id="adres" placeholder="Kerkstraat 12" autocomplete="street-address">
+      </div>
+      <div class="field-grid">
+        <div class="field">
+          <label>Postcode <span class="req">*</span></label>
+          <input type="text" id="postcode" placeholder="1234 AB" autocomplete="postal-code">
+        </div>
+        <div class="field">
+          <label>Woonplaats <span class="req">*</span></label>
+          <input type="text" id="woonplaats" placeholder="Amsterdam" autocomplete="address-level2">
+        </div>
+      </div>
+
+      <div class="section-label">Contact</div>
+      <div class="field-grid">
+        <div class="field">
+          <label>Telefoon (vast)</label>
+          <input type="tel" id="telefoon" placeholder="030 - 123 4567" autocomplete="tel">
+        </div>
+        <div class="field">
+          <label>Mobiel <span class="req">*</span></label>
+          <input type="tel" id="mobiel" placeholder="06 - 12 34 56 78" autocomplete="mobile tel">
+        </div>
+        <div class="field field-wide">
+          <label>Telefoonnummer noodcontact</label>
+          <input type="tel" id="telefoon_nood" placeholder="Noodnummer (niet uzelf)">
+          <div class="hint">Nummer dat we kunnen bellen in geval van een noodsituatie</div>
+        </div>
+      </div>
+
+      <div class="section-label">Overig</div>
+      <div class="field-grid">
+        <div class="field field-wide">
+          <label>E-mailadres <span class="req">*</span></label>
+          <input type="email" id="email" placeholder="jan@voorbeeld.nl" autocomplete="email">
+        </div>
+        <div class="field">
+          <label>Geboortedatum</label>
+          <input type="date" id="geboortedatum">
+        </div>
+      </div>
+      <div class="field">
+        <label>Beroep / werkervaring</label>
+        <textarea id="beroep" placeholder="Indien u gepensioneerd bent, vul hier uw vroegere werkervaring in…"></textarea>
+      </div>
+      <div class="field">
+        <label>Ander vrijwilligerswerk</label>
+        <textarea id="ander_vrijwilligerswerk" placeholder="Eventueel ander vrijwilligerswerk dat u doet…"></textarea>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn" onclick="goStep(0)">← Terug</button>
+        <button class="btn primary" onclick="goStep(2)">Verder →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ STAP 2: Vaarervaring ═════════════════════════════════════════════ -->
+  <div class="step" id="s2">
+    <div class="sh">
+      <div class="sh-lbl">Stap 3 van 5</div>
+      <div class="sh-title" id="sh-vaarervaring">Vaarervaring</div>
+      <div class="sh-sub" id="sh-vaarervaring-sub">Aanvullende vragen voor uw functie.</div>
+    </div>
+    <div class="sb">
+      <!-- Schipper sectie -->
+      <div id="sectie-schipper">
+        <div class="section-label">Vaarervaring</div>
+        <div class="field-grid">
+          <div class="field">
+            <label>Jaren ervaring op motorschepen</label>
+            <input type="number" id="jaren_ervaring" min="0" placeholder="bijv. 5">
+          </div>
+          <div class="field">
+            <label>Lengte schip (meters)</label>
+            <input type="number" id="lengte_schip" min="0" step="0.1" placeholder="bijv. 12">
+          </div>
+          <div class="field field-wide">
+            <label>Type schepen waarop gevaren is</label>
+            <input type="text" id="type_schepen" placeholder="bijv. binnenvaart, zeilboot, vrachtschip">
+          </div>
+        </div>
+        <div class="section-label">Bekendheid vaargebieden</div>
+        <div class="field">
+          <label>Utrechtse Vecht</label>
+          <div class="radio-cards" style="flex-direction:row">
+            <label class="radio-card" style="flex:1" id="rc-vecht-s-ja">
+              <input type="radio" name="vecht_schipper" value="Bekend" onchange="selectRadioCard('vecht_schipper','rc-vecht-s-ja','rc-vecht-s-nee')">
+              <div><div class="rc-title">✓ Bekend</div></div>
+            </label>
+            <label class="radio-card" style="flex:1" id="rc-vecht-s-nee">
+              <input type="radio" name="vecht_schipper" value="Onbekend" onchange="selectRadioCard('vecht_schipper','rc-vecht-s-nee','rc-vecht-s-ja')">
+              <div><div class="rc-title">✗ Onbekend</div></div>
+            </label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Loosdrechtse Plassen</label>
+          <div class="radio-cards" style="flex-direction:row">
+            <label class="radio-card" style="flex:1" id="rc-loos-s-ja">
+              <input type="radio" name="loosdrecht_schipper" value="Bekend" onchange="selectRadioCard('loosdrecht_schipper','rc-loos-s-ja','rc-loos-s-nee')">
+              <div><div class="rc-title">✓ Bekend</div></div>
+            </label>
+            <label class="radio-card" style="flex:1" id="rc-loos-s-nee">
+              <input type="radio" name="loosdrecht_schipper" value="Onbekend" onchange="selectRadioCard('loosdrecht_schipper','rc-loos-s-nee','rc-loos-s-ja')">
+              <div><div class="rc-title">✗ Onbekend</div></div>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gastheer sectie -->
+      <div id="sectie-gastheer" style="display:none">
+        <div class="section-label">Bekendheid vaargebieden</div>
+        <div class="field">
+          <label>Utrechtse Vecht</label>
+          <div class="radio-cards" style="flex-direction:row">
+            <label class="radio-card" style="flex:1" id="rc-vecht-g-ja">
+              <input type="radio" name="vecht_gastheer" value="Bekend" onchange="selectRadioCard('vecht_gastheer','rc-vecht-g-ja','rc-vecht-g-nee')">
+              <div><div class="rc-title">✓ Bekend</div></div>
+            </label>
+            <label class="radio-card" style="flex:1" id="rc-vecht-g-nee">
+              <input type="radio" name="vecht_gastheer" value="Onbekend" onchange="selectRadioCard('vecht_gastheer','rc-vecht-g-nee','rc-vecht-g-ja')">
+              <div><div class="rc-title">✗ Onbekend</div></div>
+            </label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Loosdrechtse Plassen</label>
+          <div class="radio-cards" style="flex-direction:row">
+            <label class="radio-card" style="flex:1" id="rc-loos-g-ja">
+              <input type="radio" name="loosdrecht_gastheer" value="Bekend" onchange="selectRadioCard('loosdrecht_gastheer','rc-loos-g-ja','rc-loos-g-nee')">
+              <div><div class="rc-title">✓ Bekend</div></div>
+            </label>
+            <label class="radio-card" style="flex:1" id="rc-loos-g-nee">
+              <input type="radio" name="loosdrecht_gastheer" value="Onbekend" onchange="selectRadioCard('loosdrecht_gastheer','rc-loos-g-nee','rc-loos-g-ja')">
+              <div><div class="rc-title">✗ Onbekend</div></div>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn" onclick="goStep(1)">← Terug</button>
+        <button class="btn primary" onclick="goStep(3)">Verder →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ STAP 3: Certificaten & opmerkingen ══════════════════════════════ -->
+  <div class="step" id="s3">
+    <div class="sh">
+      <div class="sh-lbl">Stap 4 van 5</div>
+      <div class="sh-title">Certificaten & Opmerkingen</div>
+      <div class="sh-sub">Welke certificaten bezit u? En heeft u nog iets te vermelden?</div>
+    </div>
+    <div class="sb">
+      <div class="section-label">Certificaten (meerkeuze)</div>
+      <div class="check-list">
+        <label class="check-item" id="ci-vb1">
+          <input type="checkbox" name="certificaten" value="Vaarbewijs 1" onchange="toggleCheck(this,'ci-vb1')">
+          <span>Vaarbewijs 1</span>
+        </label>
+        <label class="check-item" id="ci-vb2">
+          <input type="checkbox" name="certificaten" value="Vaarbewijs 2" onchange="toggleCheck(this,'ci-vb2')">
+          <span>Vaarbewijs 2</span>
+        </label>
+        <label class="check-item" id="ci-marifoon">
+          <input type="checkbox" name="certificaten" value="Marifooncertificaat" onchange="toggleCheck(this,'ci-marifoon')">
+          <span>Marifooncertificaat</span>
+        </label>
+        <label class="check-item" id="ci-ehbo">
+          <input type="checkbox" name="certificaten" value="EHBO" onchange="toggleCheck(this,'ci-ehbo')">
+          <span>EHBO</span>
+        </label>
+      </div>
+
+      <div id="schipper-cert-notice" class="notice warn" style="margin-top:14px;display:none">
+        ⚠️ Voor de functie Schipper zijn Vaarbewijs 1 én het Marifooncertificaat een minimale vereiste.
+        Stuur kopieën per e-mail naar <a href="mailto:secretaris@defietsboot.nl" style="color:var(--warn)">secretaris@defietsboot.nl</a>
+      </div>
+
+      <div class="field" style="margin-top:14px">
+        <label>Opmerking over bijlagen</label>
+        <input type="text" id="bijlagen_opmerking" placeholder="bijv. 'VB1 en Marifoon worden nagestuurd'">
+        <div class="hint">Vermeld hier welke bijlagen u heeft verzonden of nog gaat sturen</div>
+      </div>
+
+      <div class="section-label">Bijlagen uploaden</div>
+      <div class="upload-zone" id="upload-zone"
+           ondragover="event.preventDefault();this.classList.add('drag')"
+           ondragleave="this.classList.remove('drag')"
+           ondrop="handleDrop(event)">
+        <input type="file" id="bijlagen-input" multiple
+               accept=".pdf,.jpg,.jpeg,.png,.gif"
+               onchange="handleFiles(this.files)">
+        <div class="uz-icon">📎</div>
+        <div class="uz-title">Klik of sleep bestanden hierheen</div>
+        <div class="uz-sub">PDF, JPG of PNG · max. 5 MB per bestand</div>
+      </div>
+      <div class="file-list" id="file-list"></div>
+
+      <div class="section-label">Bijzonderheden</div>
+      <div class="field">
+        <label>Opmerkingen of bijzonderheden</label>
+        <textarea id="bijzonderheden" placeholder="Eventuele opmerkingen of bijzonderheden…"></textarea>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn" onclick="goStep(2)">← Terug</button>
+        <button class="btn primary" onclick="goStep(4)">Verder →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ STAP 4: Samenvatting & AVG ══════════════════════════════════════ -->
+  <div class="step" id="s4">
+    <div class="sh">
+      <div class="sh-lbl">Stap 5 van 5</div>
+      <div class="sh-title">Controleren & Versturen</div>
+      <div class="sh-sub">Controleer uw gegevens hieronder voordat u de aanmelding verstuurt.</div>
+    </div>
+    <div class="sb">
+      <div id="summary"></div>
+
+      <div class="section-label" style="margin-top:16px">Toestemming AVG</div>
+      <div class="avg-wrap">
+        Ik stem ermee in dat bovenstaande door mij ingevulde gegevens waarheidsgetrouw zijn
+        en in bezit komen van de Fietsboot gedurende het proces van aanmelding en tijd van
+        lidmaatschap, conform de
+        <a href="https://www.defietsboot.nl" target="_blank">Privacyverklaring</a>
+        van Stichting Veerdiensten op de Vecht. Deze verklaring is in overeenstemming met
+        de AVG-wetgeving.
+        <div class="avg-check" id="avg-check-wrap" onclick="toggleAvg()">
+          <input type="checkbox" id="avg_akkoord">
+          <span>Ja, ik ga akkoord met de AVG-verklaring</span>
+        </div>
+      </div>
+
+      <div id="err-avg" style="font-size:12px;color:var(--err);margin-top:6px;display:none">
+        U dient akkoord te gaan met de AVG-verklaring om de aanmelding te versturen.
+      </div>
+
+      <div class="btn-row">
+        <button class="btn" onclick="goStep(3)">← Terug</button>
+        <button class="btn primary" id="btn-verstuur" onclick="verstuur()">Aanmelding versturen ✓</button>
+      </div>
+      <div class="status" id="status"></div>
+    </div>
+  </div>
+
+  <!-- ═══ RESULTAAT ════════════════════════════════════════════════════════ -->
+  <div class="step" id="s5">
+    <div class="result ok" id="result-ok">
+      <div class="ri">🎉</div>
+      <h2>Aanmelding verzonden!</h2>
+      <p>
+        Hartelijk dank voor uw aanmelding. U ontvangt een bevestiging op uw e-mailadres,
+        inclusief een overzicht van uw gegevens als PDF.<br><br>
+        Wij nemen zo spoedig mogelijk contact met u op.
+      </p>
+    </div>
+    <div class="result err" id="result-err" style="display:none">
+      <div class="ri">⚠️</div>
+      <h2>Er ging iets mis</h2>
+      <p id="result-err-msg">
+        Uw aanmelding kon niet worden verwerkt. Probeer het opnieuw of neem contact op via
+        <a href="mailto:secretaris@defietsboot.nl">secretaris@defietsboot.nl</a>.
+      </p>
+      <div class="btn-row" style="margin-top:20px;justify-content:center">
+        <button class="btn primary" onclick="goStep(4)">← Opnieuw proberen</button>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /card -->
+
+<script>
+// ── File uploads ─────────────────────────────────────────────────────────────
+const uploadedFiles = []; // { file, name, size, b64 }
+
+function handleDrop(e) {
+  e.preventDefault();
+  document.getElementById('upload-zone').classList.remove('drag');
+  handleFiles(e.dataTransfer.files);
+}
+
+function handleFiles(fileList) {
+  const MAX = 5 * 1024 * 1024;
+  Array.from(fileList).forEach(file => {
+    if (uploadedFiles.find(f => f.name === file.name)) return; // dedup
+    if (file.size > MAX) {
+      alert(`"${file.name}" is groter dan 5 MB en wordt overgeslagen.`);
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = e => {
+      const b64 = e.target.result.split(',')[1];
+      uploadedFiles.push({ name: file.name, size: file.size, b64, type: file.type });
+      renderFileList();
+    };
+    reader.readAsDataURL(file);
+  });
+  // reset input so same file can be re-added after removal
+  document.getElementById('bijlagen-input').value = '';
+}
+
+function removeFile(name) {
+  const idx = uploadedFiles.findIndex(f => f.name === name);
+  if (idx > -1) { uploadedFiles.splice(idx, 1); renderFileList(); }
+}
+
+function renderFileList() {
+  const list = document.getElementById('file-list');
+  if (!uploadedFiles.length) { list.innerHTML = ''; return; }
+  list.innerHTML = uploadedFiles.map(f => `
+    <div class="file-item">
+      <span class="fi-icon">${f.type === 'application/pdf' ? '📄' : '🖼️'}</span>
+      <span class="fi-name">${f.name}</span>
+      <span class="fi-size">${(f.size/1024).toFixed(0)} KB</span>
+      <button class="fi-del" onclick="removeFile('${f.name.replace(/'/g,"\\'")}')">✕</button>
+    </div>`).join('');
+}
+
+// ── State ─────────────────────────────────────────────────────────────────────
+const STEPS = 6;
+const PROG  = ['20%','40%','60%','80%','100%','100%'];
+let curStep = 0;
+
+// ── Navigation ────────────────────────────────────────────────────────────────
+function goStep(n) {
+  // Validate before moving forward
+  if (n > curStep) {
+    if (!validate(curStep)) return;
+  }
+  // Adapt step 2 header based on function
+  if (n === 2) adaptVarervaringStep();
+
+  document.querySelectorAll('.step').forEach((s,i) => s.classList.toggle('active', i === n));
+  document.getElementById('pf').style.width = PROG[n];
+  if (n === 4) buildSummary();
+  curStep = n;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ── Validation ────────────────────────────────────────────────────────────────
+function validate(step) {
+  let ok = true;
+  if (step === 0) {
+    const f = document.querySelector('input[name=functie]:checked');
+    const v = document.querySelector('input[name=vaargebied]:checked');
+    document.getElementById('err-functie').style.display   = f ? 'none' : 'block';
+    document.getElementById('err-vaargebied').style.display = v ? 'none' : 'block';
+    if (!f || !v) ok = false;
+  }
+  if (step === 1) {
+    ['voornaam','achternaam','adres','postcode','woonplaats','mobiel','email'].forEach(id => {
+      const el = document.getElementById(id);
+      const empty = !el.value.trim();
+      el.classList.toggle('err', empty);
+      if (empty) ok = false;
+    });
+    const emailEl = document.getElementById('email');
+    if (emailEl.value && !emailEl.value.includes('@')) {
+      emailEl.classList.add('err'); ok = false;
+    }
+  }
+  return ok;
+}
+
+// ── Radio / check helpers ─────────────────────────────────────────────────────
+function selectFunctie(input) {
+  document.getElementById('rc-schipper').classList.toggle('selected', input.value === 'Schipper (m/v)');
+  document.getElementById('rc-gastheer').classList.toggle('selected', input.value === 'Gastheer (m/v)');
+  document.getElementById('err-functie').style.display = 'none';
+  updateSchipperNotice();
+}
+
+function selectVaargebied(input) {
+  ['rc-vecht','rc-loosdrecht','rc-geen-voorkeur'].forEach(id =>
+    document.getElementById(id).classList.remove('selected'));
+  input.closest('.radio-card').classList.add('selected');
+  document.getElementById('err-vaargebied').style.display = 'none';
+}
+
+function selectRadioCard(name, activeId, inactiveId) {
+  document.getElementById(activeId).classList.add('selected');
+  document.getElementById(inactiveId).classList.remove('selected');
+}
+
+function toggleCheck(input, cardId) {
+  document.getElementById(cardId).classList.toggle('checked', input.checked);
+  updateSchipperNotice();
+}
+
+function toggleAvg() {
+  const cb   = document.getElementById('avg_akkoord');
+  const wrap = document.getElementById('avg-check-wrap');
+  cb.checked = !cb.checked;
+  wrap.classList.toggle('active', cb.checked);
+  document.getElementById('err-avg').style.display = 'none';
+}
+
+function updateSchipperNotice() {
+  const isSchipper = document.querySelector('input[name=functie]:checked')?.value === 'Schipper (m/v)';
+  document.getElementById('schipper-cert-notice').style.display = isSchipper ? 'block' : 'none';
+}
+
+function adaptVarervaringStep() {
+  const functie = document.querySelector('input[name=functie]:checked')?.value || '';
+  const isSchipper = functie === 'Schipper (m/v)';
+  document.getElementById('sectie-schipper').style.display = isSchipper ? 'block' : 'none';
+  document.getElementById('sectie-gastheer').style.display = isSchipper ? 'none' : 'block';
+  document.getElementById('sh-vaarervaring').textContent =
+    isSchipper ? 'Vaarervaring Schipper' : 'Vaarervaring Gastheer';
+  document.getElementById('sh-vaarervaring-sub').textContent =
+    isSchipper
+      ? 'Aanvullende vragen over uw ervaring als schipper op motorschepen.'
+      : 'Bent u bekend met de vaargebieden van de Fietsboot?';
+}
+
+// ── Summary builder ───────────────────────────────────────────────────────────
+function buildSummary() {
+  const d = collectData();
+  const functie    = d.functie || '—';
+  const vaargebied = d.vaargebied || '—';
+  const naam       = [d.voornaam, d.tussenvoegsel, d.achternaam].filter(Boolean).join(' ');
+  const adresVol   = [d.adres, d.postcode, d.woonplaats].filter(Boolean).join('  ·  ');
+  const certs      = d.certificaten.length ? d.certificaten.join(', ') : '—';
+  const isSchipper = functie === 'Schipper (m/v)';
+
+  let varervaringRows = '';
+  if (isSchipper) {
+    varervaringRows = `
+      ${sr('Jaren ervaring', d.jaren_ervaring || '—')}
+      ${sr('Lengte schip', d.lengte_schip ? d.lengte_schip + ' m' : '—')}
+      ${sr('Type schepen', d.type_schepen || '—')}
+      ${sr('Utrechtse Vecht', d.vecht_schipper || '—')}
+      ${sr('Loosdrechtse Plassen', d.loosdrecht_schipper || '—')}`;
+  } else {
+    varervaringRows = `
+      ${sr('Utrechtse Vecht', d.vecht_gastheer || '—')}
+      ${sr('Loosdrechtse Plassen', d.loosdrecht_gastheer || '—')}`;
+  }
+
+  document.getElementById('summary').innerHTML = `
+    <div class="summ-section">
+      <h3>Aanmelding</h3>
+      ${sr('Functie', functie, true)}
+      ${sr('Vaargebied', vaargebied)}
+    </div>
+    <div class="summ-section">
+      <h3>Persoonsgegevens</h3>
+      ${sr('Naam', naam || '—')}
+      ${sr('Adres', adresVol || '—')}
+      ${sr('Telefoon', d.telefoon || '—')}
+      ${sr('Mobiel', d.mobiel || '—')}
+      ${sr('Noodcontact', d.telefoon_nood || '—')}
+      ${sr('E-mail', d.email || '—')}
+      ${sr('Geboortedatum', d.geboortedatum || '—')}
+      ${d.beroep ? sr('Beroep', d.beroep) : ''}
+      ${d.ander_vrijwilligerswerk ? sr('Vrijwilligerswerk', d.ander_vrijwilligerswerk) : ''}
+    </div>
+    <div class="summ-section">
+      <h3>Vaarervaring</h3>
+      ${varervaringRows}
+    </div>
+    <div class="summ-section">
+      <h3>Certificaten & Opmerkingen</h3>
+      ${sr('Certificaten', certs)}
+      ${d.bijlagen_opmerking ? sr('Bijlagen', d.bijlagen_opmerking) : ''}
+      ${d.bijzonderheden ? sr('Bijzonderheden', d.bijzonderheden) : ''}
+    </div>`;
+}
+
+function sr(label, value, accent = false) {
+  return `<div class="summ-row">
+    <span class="sk">${label}</span>
+    <span class="sv${accent ? ' accent' : ''}">${value}</span>
+  </div>`;
+}
+
+// ── Data collector ────────────────────────────────────────────────────────────
+function collectData() {
+  const certs = [...document.querySelectorAll('input[name=certificaten]:checked')]
+    .map(c => c.value);
+  return {
+    functie:              document.querySelector('input[name=functie]:checked')?.value    || '',
+    vaargebied:           document.querySelector('input[name=vaargebied]:checked')?.value || '',
+    voornaam:             v('voornaam'),
+    tussenvoegsel:        v('tussenvoegsel'),
+    achternaam:           v('achternaam'),
+    adres:                v('adres'),
+    postcode:             v('postcode'),
+    woonplaats:           v('woonplaats'),
+    telefoon:             v('telefoon'),
+    mobiel:               v('mobiel'),
+    telefoon_nood:        v('telefoon_nood'),
+    email:                v('email'),
+    geboortedatum:        v('geboortedatum'),
+    beroep:               v('beroep'),
+    ander_vrijwilligerswerk: v('ander_vrijwilligerswerk'),
+    // schipper
+    jaren_ervaring:       v('jaren_ervaring'),
+    lengte_schip:         v('lengte_schip'),
+    type_schepen:         v('type_schepen'),
+    vecht_schipper:       document.querySelector('input[name=vecht_schipper]:checked')?.value    || '',
+    loosdrecht_schipper:  document.querySelector('input[name=loosdrecht_schipper]:checked')?.value || '',
+    // gastheer
+    vecht_gastheer:       document.querySelector('input[name=vecht_gastheer]:checked')?.value    || '',
+    loosdrecht_gastheer:  document.querySelector('input[name=loosdrecht_gastheer]:checked')?.value || '',
+    // rest
+    certificaten:         certs,
+    bijlagen_opmerking:   v('bijlagen_opmerking'),
+    bijzonderheden:       v('bijzonderheden'),
+    avg_akkoord:          document.getElementById('avg_akkoord').checked,
+    bijlagen:             uploadedFiles.map(f => ({ name: f.name, type: f.type, b64: f.b64 }))
+  };
+}
+
+function v(id) {
+  const el = document.getElementById(id);
+  return el ? el.value.trim() : '';
+}
+
+// ── Submit ────────────────────────────────────────────────────────────────────
+async function verstuur() {
+  if (!document.getElementById('avg_akkoord').checked) {
+    document.getElementById('err-avg').style.display = 'block';
+    return;
+  }
+
+  const btn = document.getElementById('btn-verstuur');
+  const st  = document.getElementById('status');
+
+  btn.disabled = true;
+  st.className = 'status spin';
+  st.innerHTML = '<div class="spinner"></div> Aanmelding wordt verwerkt…';
+
+  try {
+    const res = await fetch('/api/verwerk-aanmelding', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(collectData())
+    });
+
+    if (res.ok) {
+      goStep(5);
+      document.getElementById('result-ok').style.display  = 'block';
+      document.getElementById('result-err').style.display = 'none';
+    } else {
+      const msg = await res.text();
+      throw new Error(msg || `HTTP ${res.status}`);
+    }
+  } catch (err) {
+    st.className = 'status fail';
+    st.textContent = `Er ging iets mis: ${err.message}. Probeer het opnieuw.`;
+    btn.disabled = false;
+  }
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+document.getElementById('pf').style.width = PROG[0];
+</script>
+</body>
+</html>
